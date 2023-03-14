@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [v1.0.1] - 2023-03-14
+
+### Fixed
+- fixed language issues for content text oxstartwelcome German and English
+- change documentation URL
+
 ## [v1.0.0] - 2023-03-05
 
 # [O3-Shop]
@@ -42,7 +48,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [6.0.1] - 2018-01-24
 
-[v1.0.0]: https://github.com/o3-shop/shop_demodata_ce/releases/tag/v1.0.0
+[v1.0.1]: https://gitlab.o3-shop.com/o3/shop_demodata_ce/compare/v1.0.0...v1.0.1
+[v1.0.0]: https://gitlab.o3-shop.com/o3/shop_demodata_ce/-/tags/v1.0.0
 [O3-Shop]: https://www.o3-shop.com/
 [6.0.4]: https://github.com/OXID-eSales/oxideshop_demodata_ce/compare/v6.0.3...HEAD
 [6.0.3]: https://github.com/OXID-eSales/oxideshop_demodata_ce/compare/v6.0.2...v6.0.3
