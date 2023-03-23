@@ -543,7 +543,7 @@ INSERT INTO `oxconfigdisplay` (`OXID`, `OXCFGMODULE`, `OXCFGVARNAME`, `OXGROUPIN
 ('e0fb9345d9a85a86e62d485bfc354432','theme:flow','blFooterShowNews','footer','',6,'2016-07-19 14:11:08'),
 ('e4d52bea45d7958415bed457567e55d5','theme:flow','sFavicon16File','favicons','',2,'2016-07-19 14:11:08'),
 ('e676ec37632a4e1b1d30cc839c06614f','theme:flow','blFooterShowLinks','footer','',2,'2016-07-19 14:11:08'),
-('0x942748b21d787786565441','theme:flow','sLogoFile','logo','',0,'2016-07-19 14:11:08'),
+('7a50a3f250976b7dc0ee41263db0df59','theme:flow','sLogoFile','logo','',0,'2016-07-19 14:11:08'),
 ('f0295f3826d540606f06c97a1c3f526f','theme:flow','sFavicon512File','favicons','',7,'2016-07-19 14:11:08'),
 ('f3d46784c4d2a7b3b40050d2d7031ee8','theme:flow','blShowBirthdayFields','display','',14,'2016-07-19 14:11:08'),
 ('f47de955b128f96bf58e949cec431408','theme:flow','sDeliveryDaysOnStock','googlets','',10,'2016-07-19 14:11:08'),
