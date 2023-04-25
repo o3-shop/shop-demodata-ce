@@ -25,6 +25,9 @@
       "role": "Developer"
     }
   ],
+  "require": {
+    "o3-shop/shop-ce": "^1.2"
+  },
   "replace": {
     "oxid-esales/oxideshop-demodata-ce": "6.0.4"
   }
