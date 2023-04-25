@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [unreleased]
 
+## [v1.2.0] - 2023-04-25
+
+### Added
+- isPlain option to CMS content items
+
+### Changed
+- decoded config items for mySQL 8 compatibility
+
 ## [v1.1.0] - 2023-03-29
 
 ### Changed
