@@ -406,6 +406,17 @@ INSERT INTO `oxconfig` (`OXID`, `OXSHOPID`, `OXMODULE`, `OXVARNAME`, `OXVARTYPE`
 ('omc4555952125c3c2.98253113',1,'','blDisableNavBars','bool','1'),
 ('rgk2a8c9cf8c9d23b3a7c8e9c090baf1',1,'','sTheme','str','wave');
 
+-- §356a BGB electronic revocation feature (issue #99). Default-on for fresh
+-- installs; OXIDs match source/Setup/Sql/initial_data.sql so INSERT IGNORE
+-- here is a no-op on the no-demo install branch where initial_data.sql
+-- already seeds these rows. See design.md D5 for the absent-row code-default
+-- semantics on upgrades.
+INSERT IGNORE INTO `oxconfig` (`OXID`, `OXSHOPID`, `OXMODULE`, `OXVARNAME`, `OXVARTYPE`, `OXVARVALUE`) VALUES
+    ('c7c6ef985f845e56417339ae7b930b20', 1, '', 'blShowRevocationForm',       'bool', '1'),
+    ('b4f36c830c18f275eef33491246b822e', 1, '', 'blRevocationRequireLogin',   'bool', '0'),
+    ('f4a110db564dcf6528ede68bddebe75c', 1, '', 'blRevocationNotifyOperator', 'bool', '1'),
+    ('222ef6f2a5c46a0f105c3ce2ca538f0b', 1, '', 'sRevocationOperatorEmail',   'str',  '');
+
 INSERT INTO `oxconfig` (`OXID`, `OXSHOPID`, `OXMODULE`, `OXVARNAME`, `OXVARTYPE`, `OXVARVALUE`) VALUES
 ('0c6c988ca3077f8dc8028b22bf1cd5f4', 1, 'theme:wave', 'aNrofCatArticlesInGrid', 'arr', 'a:4:{i:0;s:2:"12";i:1;s:2:"16";i:2;s:2:"24";i:3;s:2:"32";}'),
 ('0f7a2bae161e97f836d606396ba13277', 1, 'theme:wave', 'blFooterShowLinks', 'bool', '1'),
