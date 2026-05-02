@@ -404,7 +404,7 @@ INSERT INTO `oxconfig` (`OXID`, `OXSHOPID`, `OXMODULE`, `OXVARNAME`, `OXVARTYPE`
 ('mhjf24905a5b49c8d60aa31087b97971',1,'','blEnableSeoCache','bool','1'),
 ('mhjf24905a5b49c8d60aa31087b9797f',1,'','blShowRememberMe','bool','1'),
 ('omc4555952125c3c2.98253113',1,'','blDisableNavBars','bool','1'),
-('rgk2a8c9cf8c9d23b3a7c8e9c090baf1',1,'','sTheme','str','wave');
+('rgk2a8c9cf8c9d23b3a7c8e9c090baf1',1,'','sTheme','str','o3-theme');
 
 -- §356a BGB electronic revocation feature (issue #99). Default-on for fresh
 -- installs; OXIDs match source/Setup/Sql/initial_data.sql so INSERT IGNORE
