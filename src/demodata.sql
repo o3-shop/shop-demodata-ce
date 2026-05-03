@@ -235,7 +235,7 @@ INSERT INTO `oxconfig` (`OXID`, `OXSHOPID`, `OXMODULE`, `OXVARNAME`, `OXVARTYPE`
 ('33c8ca2399ec4c9baf1c2669529220e9',1,'theme:flow','sBlogUrl','str','https://wordpress.org'),
 ('36d42513de8cab671.54909813',1,'','bl_perfShowActionCatArticleCnt','bool','1'),
 ('37fbd352a75a6db2af525b13378c69cf',1,'theme:flow','sGoogleMapsAddr','str','O3-Shop, Musterstr. 17, 12345 Musterstadt'),
-('3c4f033dfb8fd4fe692715dda19ecd28',1,'','aCurrencies','arr','a:4:{i:0;s:23:"EUR@ 1.00@ ,@ .@ €@ 2";i:1;s:24:"GBP@ 0.8565@ .@  @ £@ 2";i:2;s:40:"CHF@ 1.4326@ ,@ .@ <small>CHF</small>@ 2";i:3;s:23:"USD@ 1.2994@ .@  @ $@ 2";}'),
+('3c4f033dfb8fd4fe692715dda19ecd28',1,'','aCurrencies','arr','a:4:{i:0;s:23:"EUR@ 1.00@ ,@ .@ €@ 2";i:1;s:24:"GBP@ 0.8663@ .@  @ £@ 2";i:2;s:40:"CHF@ 0.9190@ ,@ .@ <small>CHF</small>@ 2";i:3;s:23:"USD@ 1.1702@ .@  @ $@ 2";}'),
 ('43040112c71dfb0f2.40367454',1,'','sDefaultImageQuality','str','75'),
 ('43141b9b252874600.34636487',1,'','sDecimalSeparator','str',','),
 ('4369200546872115876e5bdd54d0f4ca',1,'','aLanguageSSLURLs','arr','a:2:{i:0;s:0:"";i:1;s:0:"";}'),
