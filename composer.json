@@ -30,5 +30,8 @@
   },
   "replace": {
     "oxid-esales/oxideshop-demodata-ce": "6.0.4"
+  },
+  "archive": {
+    "exclude": [".next-bump"]
   }
 }
